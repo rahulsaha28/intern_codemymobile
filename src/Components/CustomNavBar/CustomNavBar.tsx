@@ -7,7 +7,7 @@ export const CustomNavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <a href="" className="navbar-brand">DocDoc</a>
+                <a href="/" className="navbar-brand">DocDoc</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom_nav_bar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

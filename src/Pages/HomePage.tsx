@@ -7,7 +7,7 @@ import productData from '../Data/ProductData.json';
 export const HomePage = () => {
     const { products, setProducts } = useContext<ContextType>(ContextForProduct);
 
-    useEffect(() => setProducts(productData), [])
+    useEffect(() => setProducts(productData), [setProducts])
 
     return (
         <div className="container mt-4">
